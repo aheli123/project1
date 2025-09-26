@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="r1">
+            <h1 style="text-align: center;padding-top: 3%;color: rgb(253, 11, 124);">GMRI</h1>
+        </div>
+        <div class="r2">
+            <div class="r2c1">
+                <a href="findd.html"><h3>Find a Doctor</h3></a>
+            </div>
+            <div class="r2c2">
+                <a href="checkup.html"><h3>Health check-up planes</h3></a>
+            </div>
+            <div class="r2c3">
+                <a href="appointment.html"><h3>Book an Appointment</h3></a> 
+            </div>
+        </div>
+        <div class="r3">
+            <div class="r3c1">
+                <div class="r3c1r1"><img src="image/cric2.png" alt="" ><a href="critical.html"><h4>Critical Care Medicine</h4></a></div>
+                <div class="r3c1r2"><img src="image/ent.png" alt="" ><a href="otolaryngology.html"><h4>ENT- Otolaryngology</h4></a></div>
+                <div class="r3c1r3"><img src="image/gensur.png" alt="" ><a href="generalsurgery.html"><h4>General Surgery</h4></a></div>
+                <div class="r3c1r4"><img src="image/pul.png" alt="" ><a href="pulmonology.html"><h4>Pulmonology</h4></a></div>
+            </div>
+            <div class="r3c2">
+                <div class="frm">
+                     <form action="reg.php" method="post" style="padding: 10px;">
+                        <label for="">Enter the name:-</label><br>
+                        <input type="text" name="name"><br><br>
+                        <label for="">Enter the Email Id:-</label><br>
+                        <input type="text" name="email"><br><br>
+                        <label for="">Enter the mobile number:-</label><br>
+                        <input type="text" name="ph"><br><br>
+                        <label for="">Select the doctor:-</label><br>
+                        <select name="doctor" id="">
+                            <option value="Dr. Abhishek Bhartia">Dr. Abhishek Bhartia</option>
+                            <option value="Dr. Ajay Aggarwal">Dr. Ajay Aggarwal</option>
+                            <option value="Dr. Barishan Mukherje">Dr. Barishan Mukherjee</option>
+                            <option value="Dr. Aditya Satpati">Dr. Aditya Satpati</option>
+                            <option value="Dr. Ajay Mandal">Dr. Ajay Mandal</option>
+                        </select><br><br>
+                         <label for="">Appointment Date</label><br>
+                        <input type="date" name="date"></br></br>
+                        <input type="submit" name="submit">
+                    </form> 
+                </div>
+
+            </div>
+        </div>
+        <div class="r4">
+            <h5 style="padding-top: .7%;">All Rights Reserved.</h5><h5 style="text-align: Right;"> Admin</h5>
+        </div>
+    </div>
+    
+</body>
+</html>
